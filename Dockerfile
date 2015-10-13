@@ -8,7 +8,7 @@ WORKDIR /src
 ADD app/package.json /src/package.json
 RUN npm install
 
-VOLUME ["app:/src/app"]
+COPY app /src/app
 
 EXPOSE 3000
 

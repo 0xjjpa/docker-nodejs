@@ -34,3 +34,9 @@ destroy:
 
 global-status:
 	make -C .dev-setup global-status
+
+reload:
+	make -C .dev-setup reload
+
+logs:
+	make -C .dev-setup logs
