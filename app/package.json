@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-express-sample-app",
+  "version": "0.1.0",
+  "description": "A simple express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.9.0"
+  },
+  "author": "Jose Aguinaga <me@jjperezaguinaga.com>",
+  "license": "ISC"
+}
